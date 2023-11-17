@@ -4,7 +4,7 @@ public class MainBanca {
     public static void main(String[] args) {
         GestioneBanca banca = new GestioneBanca();
         Scanner KB = new Scanner(System.in);
-        int selezione = 0;
+        int selezione;
 
         do{
             Utility.selezione();
